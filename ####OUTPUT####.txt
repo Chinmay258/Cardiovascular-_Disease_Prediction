@@ -1,0 +1,85 @@
+####OUTPUT####
+
+C:\Users\death\AppData\Local\Microsoft\WindowsApps\python3.11.exe C:\Users\death\PycharmProjects\pythonProject1\cardio_disease_pred.py 
+Correlation Matrix:
+Correlation matrix plot saved.
+Target Distribution:
+Target distribution plot saved.
+Feature Boxplot:
+Feature boxplot saved.
+Training and evaluating models:
+Model: SVM
+Accuracy: 0.7247857142857143
+ROC-AUC: 0.7820197859656444
+              precision    recall  f1-score   support
+
+           0       0.71      0.76      0.73      7004
+           1       0.74      0.69      0.72      6996
+
+    accuracy                           0.72     14000
+   macro avg       0.73      0.72      0.72     14000
+weighted avg       0.73      0.72      0.72     14000
+
+
+
+Model: KNN
+Accuracy: 0.6482857142857142
+ROC-AUC: 0.6894643679883651
+              precision    recall  f1-score   support
+
+           0       0.64      0.66      0.65      7004
+           1       0.65      0.63      0.64      6996
+
+    accuracy                           0.65     14000
+   macro avg       0.65      0.65      0.65     14000
+weighted avg       0.65      0.65      0.65     14000
+
+
+
+Model: Decision Tree
+Accuracy: 0.6335
+ROC-AUC: 0.6333892272291354
+              precision    recall  f1-score   support
+
+           0       0.63      0.63      0.63      7004
+           1       0.63      0.63      0.63      6996
+
+    accuracy                           0.63     14000
+   macro avg       0.63      0.63      0.63     14000
+weighted avg       0.63      0.63      0.63     14000
+
+
+
+Model: Logistic Regression
+Accuracy: 0.7136428571428571
+ROC-AUC: 0.7780855499871183
+              precision    recall  f1-score   support
+
+           0       0.70      0.75      0.72      7004
+           1       0.73      0.67      0.70      6996
+
+    accuracy                           0.71     14000
+   macro avg       0.71      0.71      0.71     14000
+weighted avg       0.71      0.71      0.71     14000
+
+
+
+Model: Random Forest
+Accuracy: 0.713
+ROC-AUC: 0.7703285678623895
+              precision    recall  f1-score   support
+
+           0       0.71      0.73      0.72      7004
+           1       0.72      0.70      0.71      6996
+
+    accuracy                           0.71     14000
+   macro avg       0.71      0.71      0.71     14000
+weighted avg       0.71      0.71      0.71     14000
+
+
+
+The best model is: SVM
+Best model saved.
+Prediction: Heart Disease
+
+Process finished with exit code 0
